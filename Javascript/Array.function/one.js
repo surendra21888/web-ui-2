@@ -1,11 +1,10 @@
-function add(){
-    console.log();
-    
+/* function add(){
+   console.log("Addition")
 }
-add()
-
-let add=(a+b) {
-    console.log(a+b)
+   add()*/
+   let a=100
+   let add=()=>{
+    console.log("Addition")
     
-}
-add(10+20)
+   }
+   add()

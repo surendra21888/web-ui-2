@@ -1,16 +1,12 @@
-function add(a,b)=>{
-    console.log(a+b)
-    
+/* function add(a,b){
+return a+b
 }
-
-
-let add(a,b){
-    return a+b;
-    
-}
-
-let r=add(10-20)
-console.log(r)
-let r=add(10-20)
+let r1=add(10,20)
 console.log(r1)
+*/
+let add =(a,b)=>{
+    return a+b;
 
+}
+let r1=add(10,20)
+console.log(r1)

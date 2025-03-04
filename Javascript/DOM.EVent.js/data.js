@@ -1,7 +1,5 @@
-function changebtnname(){
-    //alert("test case 123"_
-    let btnref=document.getElementById('abc')
-    console.log(btnref)
-    
-    
+function changecolor(){
+    //alter('test case123')
+    let input_tag_ref=document.getElementById('abc')
+    input_tag_ref.style.backgroundcolor="red"
 }

@@ -1,0 +1,15 @@
+
+h1{
+    background-color: blue;
+}
+.abc{
+    background-color: yellow;
+}
+#xyz{
+    background-color: green;
+    
+}
+*{
+    background-color: aqua;
+    font-size: 50px;
+}

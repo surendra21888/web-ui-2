@@ -1,76 +1,91 @@
+
 <html>
     <head>
         <link rel="stylesheet" href="./bs.css">
-        <style>
-            .space{
-                margin-top: 20px;
-            }
-        </style>
     </head>
     <body>
        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <a href="" class="navbar-brand">Logo</a>
-            <div class="ml-auto">
-                <ul class="navbar-nav">
-                    <li><a href="./index.html" class="nav-link">Home</a></li>
-                    <li><a href="./about.html" class="nav-link">About</a></li>
-                    <li><a href="./services.html" class="nav-link">Services</a></li>
-                    <li><a href="./employees.html" class="nav-link">Employees</a></li>
-                    <li><a href="./products.html" class="nav-link">Products</a></li>
-                    <li><a href="./contact.html" class="nav-link">Contact</a></li>
-                    <li><a href="./login.html" class="nav-link">Login</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div>
-            <h2>Contact Page</h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
+        <a href="" class="navbar-brand">Logo</a>
 
-                    <form class="form-group">
-                        <div class="row">
-                            <div class="form-group col-4">
-                                <label>Name</label>
-                                <input type="text" class="form-control"/>
-                            </div>
-                            <div class="form-group col-4">
-                                <label>Email id</label>
-                                <input type="text" class="form-control"/>
-                            </div>
-                            <div class="form-group col-4">
-                                <label>Phone</label>
-                                <input type="Phone" class="form-control"/>
-                            </div>
-                        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <div class="ml-auto">
+            <ul class="navbar-nav">
+                <li><a href="./index.html" class="nav-link">Home</a></li>
+                <li><a href="./about.html" class="nav-link">About</a></li>
+                <li><a href="./services.html" class="nav-link">Services</a></li>
+                <li><a href="./employees.html" class="nav-link">Employees</a></li>
+                <li><a href="./contact.html" class="nav-link">Contact</a></li>
+                <li><a href="./login.html" class="nav-link">Login</a></li>
+            </ul>
+        </div>
+       </nav>
+       <div>
+        <h3>Contact Page</h3>
+       </div>
+       <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <!-- contact form-->
+                 <form action="">
+                  <div class="row">
+                    <div class="col-4">
                         <div class="form-group">
-                            <div calss="row"></div>
-                            <div class="form-group col-4">
-                                <label>Subject</label>
-                                <input type="text" class="form-control"/> <br>
-                            </div> <br>
-                            <div calss="form-group">
-                                <label>services</label>
-                                <select class="form-group col-4">
-                                    <option value="">select</option>
-                                    <option value="">Web Development</option>
-                                    <option value="">App Developmnet</option>
-                                    <option value="">Hybrid Development</option>
-                                </select>
-
-                                
-
-                            </div>
+                            <label >Name:</label>
+                            <input type="text" class="form-control"/>
                         </div>
-                    </form>
-                </div>
-    
-                <div class="col-6">
-                    <!-- Google Map-->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124079.83328511282!2d79.3441007407345!3d13.627638881818646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b0f88620427%3A0xcf4152d1daca0cac!2sTirupati%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1740381607172!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"></iframe>
-                </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label >Email:</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label >Mobile:</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                    
+                  </div>
+                  <div class="row">
+                    <div class="col-8">
+                        <div class="form-group">
+                            <label >Subject</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label >Services</label>
+                            <select  class="form-control">
+                                <option >--Select--</option>
+                                <option >Web Dev</option>
+                                <option >Mobile Dev</option>
+                                <option>Hybrid Dev</option>
+                                <option >Cloud</option>
+                            </select>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label >Message:</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                        </div>
+                    </div>
+                  </div>
+                  <input type="submit" value="Submit Comment" class="btn btn-warning" />
+                 </form>
+            </div>
+            <div class="col-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124079.83328504801!2d79.34410111567799!3d13.627638881942115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b0f88620427%3A0xcf4152d1daca0cac!2sTirupati%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1741154057944!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
+       </div>
     </body>
 </html>
